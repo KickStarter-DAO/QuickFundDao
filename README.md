@@ -31,37 +31,38 @@ DAOs are regarded as being the most decentralised because they rely on a decentr
 
 #### 1.FundProject.sol
 
-Investors and Project Founder intract peer to peer through smartContract. After verification of project by DAO, ipfs hash of projects store on blockchain and founder will get specific projectID. Using projectId Voters can do vote on projects by using QFD governor token. DAO has authority to diapprove the projects in case of scam.
+_Investors and Project Founder intract peer to peer through smartContract. After verification of project by DAO, ipfs hash of projects store on blockchain and founder will get specific projectID. Using projectId Voters can do vote on projects by using QFD governor token. DAO has authority to diapprove the projects in case of scam._
 
 
 
 
 #### 2.GovernanceToken.sol
 
+_QFD is the standard ERC-20 fungible token of QuickFund DAO._  
  
 
 
 
 
---------------
-
 #### 3.GovernerContract.sol
 
+_The Governor contract is responsible for managing DAO proposals.It monitors the progress of ideas and counts the votes to determine whether they are approved. If a proposal is approved, the Governor puts it into action on-chain._
 
+_The primary advantage of the Governor structure is that all of the DAO's decisions are made entirely on-chain. Because the smart contract handles everything totally on-chain, token voters don't need to put their trust in a third party to tally their votes or carry out their transactions._
 
-
------------
-
-#### 4.TimeLock.sol
 
 
 -----------------
-## Vision
+## visualize Smart Contract
 
- ![fund](https://user-images.githubusercontent.com/82324643/202600396-1c242463-61f9-4be4-b962-26653a183e62.svg)
-   ![token](https://user-images.githubusercontent.com/82324643/197370082-31213bac-5a68-4b76-93fd-930d10130af4.svg)
-   ![govermentContract](https://user-images.githubusercontent.com/82324643/197370115-f623112f-ab0a-4f42-bfe9-814cfb0fc5f6.svg)
-   ![timelock](https://user-images.githubusercontent.com/82324643/197370137-bdd2217f-f491-4feb-8719-3abc8d4d2b93.svg)
+![fund](https://user-images.githubusercontent.com/82324643/202600396-1c242463-61f9-4be4-b962-26653a183e62.svg)
+-----------------------------
+ 
+![token](https://user-images.githubusercontent.com/82324643/197370082-31213bac-5a68-4b76-93fd-930d10130af4.svg)
+  ---------------------------
+![govermentContract](https://user-images.githubusercontent.com/82324643/197370115-f623112f-ab0a-4f42-bfe9-814cfb0fc5f6.svg)
+   ----------------------
+![timelock](https://user-images.githubusercontent.com/82324643/197370137-bdd2217f-f491-4feb-8719-3abc8d4d2b93.svg)
 
 
 

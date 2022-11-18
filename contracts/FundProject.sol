@@ -23,7 +23,6 @@ contract FundProject is Ownable, AutomationCompatibleInterface {
 
     uint256 public projectId = 1;
 
-    uint public lastTimeStamp;
     uint256 public daoPercentage;
     uint256 public enteranceFee;
 
@@ -59,7 +58,6 @@ contract FundProject is Ownable, AutomationCompatibleInterface {
     }
 
     constructor(uint256 _enteranceFee, uint256 _daoPercentage) {
-        lastTimeStamp = block.timestamp;
         daoPercentage = _daoPercentage;
         enteranceFee = _enteranceFee;
     }
@@ -173,7 +171,10 @@ contract FundProject is Ownable, AutomationCompatibleInterface {
     }
 
     function withdrawFund(uint256 _projectID) public {
-        if (_ProjectFundingStatus[_projectID] == ProjectFundingStatus.FAILED) {
+        if (
+            _ProjectFundingStatus[_projectID] == ProjectFundingStatus.FAILED ||
+            _ProjectFundingStatus[_projectID] == ProjectFundingStatus.CANCELED
+        ) {
             uint256 fundToSent = funders[_projectID][msg.sender];
             funders[_projectID][msg.sender] = 0;
             (bool success, ) = (payable(msg.sender)).call{value: fundToSent}(

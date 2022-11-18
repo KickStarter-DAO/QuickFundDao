@@ -1,13 +1,14 @@
 # Quickfund DAO(Decentralized Autonomous Organization)
 
-Start raising money >5 minutes with our provably fair venture DAO. Earn passive rewards by participating in the DAO voting, staking QFD tokens and more!
 
 --------------------------
 ## What is it?
 
+A decentralised autonomous organisation, or DAO, is a blockchain-based system that enables people to coordinate and self-govern themselves through a set of self-executing rules published on a public blockchain.
+DAOs are regarded as being the most decentralised because they rely on a decentralised infrastructure without centralize servers (a public blockchain). Second, because they rely on certain decentralized governance mechanisms, so the decision-making process relies on the collective agreement of its members. This process typically relies on some form of voting, in which the DAO members can participate.
 
 --------------------------
-## Desclaimer
+## Why QuickFund Dao?
 
 
 

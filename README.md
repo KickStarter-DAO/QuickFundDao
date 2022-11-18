@@ -22,7 +22,6 @@ DAOs are regarded as being the most decentralised because they rely on a decentr
 5. Onchain voating
 
 
--------------------------
 ## overview
 
 
@@ -32,23 +31,17 @@ DAOs are regarded as being the most decentralised because they rely on a decentr
 
 #### 1.FundProject.sol
 
+Investors and Project Founder intract peer to peer through smartContract. After verification of project by DAO, ipfs hash of projects store on blockchain and founder will get specific projectID. Using projectId Voters can do vote on projects by using QFD governor token. DAO has authority to diapprove the projects in case of scam.
 
 
 
-
-
-
-
-
-  ![fund](https://user-images.githubusercontent.com/82324643/202600396-1c242463-61f9-4be4-b962-26653a183e62.svg)
------------
 
 #### 2.GovernanceToken.sol
 
+ 
 
 
 
-  ![token](https://user-images.githubusercontent.com/82324643/197370082-31213bac-5a68-4b76-93fd-930d10130af4.svg)
 
 --------------
 
@@ -56,16 +49,20 @@ DAOs are regarded as being the most decentralised because they rely on a decentr
 
 
 
-![govermentContract](https://user-images.githubusercontent.com/82324643/197370115-f623112f-ab0a-4f42-bfe9-814cfb0fc5f6.svg)
 
 -----------
 
 #### 4.TimeLock.sol
 
 
-![timelock](https://user-images.githubusercontent.com/82324643/197370137-bdd2217f-f491-4feb-8719-3abc8d4d2b93.svg)
 -----------------
 ## Vision
+
+ ![fund](https://user-images.githubusercontent.com/82324643/202600396-1c242463-61f9-4be4-b962-26653a183e62.svg)
+   ![token](https://user-images.githubusercontent.com/82324643/197370082-31213bac-5a68-4b76-93fd-930d10130af4.svg)
+   ![govermentContract](https://user-images.githubusercontent.com/82324643/197370115-f623112f-ab0a-4f42-bfe9-814cfb0fc5f6.svg)
+   ![timelock](https://user-images.githubusercontent.com/82324643/197370137-bdd2217f-f491-4feb-8719-3abc8d4d2b93.svg)
+
 
 
 

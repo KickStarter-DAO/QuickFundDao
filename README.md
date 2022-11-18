@@ -19,7 +19,7 @@ DAOs are regarded as being the most decentralised because they rely on a decentr
 
 4. Automated process
 
-5. Onchain voating
+5. Onchain voting
 
 ## overview
 
